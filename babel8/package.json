@@ -1,0 +1,17 @@
+{
+  "name": "plugin-babel-dts-babel8",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@babel/core": "8.0.10",
+    "@rolldown/plugin-babel": "0.3.0",
+    "@types/convert-source-map": "2.0.3",
+    "@types/node": "24.19.2",
+    "rolldown": "1.2.16",
+    "typescript": "6.0.3",
+    "vite": "8.3.5"
+  }
+}

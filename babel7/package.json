@@ -1,0 +1,15 @@
+{
+  "name": "plugin-babel-dts-babel7",
+  "private": true,
+  "type": "module",
+  "scripts": { "typecheck": "tsc -p ." },
+  "dependencies": {
+    "@babel/core": "7.29.7",
+    "@rolldown/plugin-babel": "0.3.0",
+    "@types/babel__core": "7.20.5",
+    "@types/node": "24.19.2",
+    "rolldown": "1.2.16",
+    "typescript": "6.0.3",
+    "vite": "8.3.5"
+  }
+}
